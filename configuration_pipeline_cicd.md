@@ -4,10 +4,9 @@
 2. Lancer le service Jenkins avec la commande `java -jar jenkins.war`
 3. Se connecter sur http://127.0.0.1:8080 pour accèder au tableau de bord sur votre serrveur local (changer l'IP dans le cas d'un serveur distant)
 4. Assurez-vous que les plugins et outils suivants sont bien installés, activés et/ou configurés:
-   1. Docker Plugin
-   2. GitHub plugin
-   3. Maven 3.9.1 (minimum)
-   4. JDK 17 (minimum)
+   1. GitHub plugin
+   2. Maven 3.9.1 (minimum)
+   3. JDK 17 (minimum)
 5. Créer un nouveau job
    1. Cliquer sur **"Nouveau Item"**
    2. Saisir un nom pour le pipeline
